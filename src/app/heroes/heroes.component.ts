@@ -14,16 +14,8 @@ export class HeroesComponent implements OnInit
 {
 
   heroes: Hero[] = [];
-  selectedHero?: Hero;
 
   constructor(private heroService: HeroService, private messageService: MessageService) { }
-
-  /* On Select */
-  // Checks which heroe the user has clicked on from the list provided
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
-    this.messageService.add("Selected hero: " + hero.name);
-  }
 
   /* Get Heroes */
   // Calls HeroService to retrieve the list of heroes
