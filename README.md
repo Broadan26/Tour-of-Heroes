@@ -2,13 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.1.
 
+## Project Purpose
+
+The goal of this project was to become better acquianted with the Angular framework and to learn Javascript with types (TypeScript).
+
+Overall I feel the project was successful in teaching many of the capabilies that Angular has as a front end service and has directed me towards many more things I could learn to further improve.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
